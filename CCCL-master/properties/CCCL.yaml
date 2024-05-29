@@ -1,0 +1,25 @@
+embedding_size: 64
+n_layers: 3
+reg_weight: 1e-4
+
+ssl_temp: 0.1
+ssl_reg: 1e-7
+hyper_layers: 1
+
+gender_temp: 0.1
+gender_weight: 1e-3
+
+occupation_temp: 0.1
+occupation_weight: 1e-3
+
+age_temp: 0.1
+age_weight: 1e-5
+
+alpha: 1
+
+com_reg: 8e-8
+num_clusters: 1000
+
+m_step: 1
+warm_up_step: 20
+
